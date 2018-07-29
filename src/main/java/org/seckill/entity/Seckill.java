@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Seckill {
     private long seckillId;
-    private String seckillName;
+    private String seckillName; //注意名字
     private int number;
     private Date startTime;
     private Date endTime;
