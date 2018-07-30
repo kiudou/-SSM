@@ -6,9 +6,13 @@
 原因分析：数据库版本太高，新版本的数据库驱动与旧的数据库驱动书写稍有不同，并且，部分jar包需更新到最新版本
 
 jdbc.properties
-jdbc.driver=com.mysql.cj.jdbc.Driver
-jdbc.url=jdbc:mysql://127.0.0.1:3306/seckill？	
-useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+
+  jdbc.driver=com.mysql.cj.jdbc.Driver
+  
+  jdbc.url=jdbc:mysql://127.0.0.1:3306/seckill？useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+
+pom.xml里面
 
 JDBC版本应为8.0.11
+
 c3p0版本应为0.9.5.2
